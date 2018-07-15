@@ -1,0 +1,29 @@
+main {
+  height: 100vh;
+  width: 100vw;
+
+  header {
+    width: 100%;
+    height: 70%;
+    background-image: url("../images/crochet2.jpg");
+    background-position: center;
+    position: relative;
+
+    h1 {
+      font-size: 40px;
+      color: white;
+      margin-top: 200px;
+      margin-left: 300px;
+      display: flex;
+      position: absolute;
+    }
+  }
+
+  .description {
+    height: 400px;
+    width: 100vw;
+    background-color:rgb(94, 92, 96);
+
+  }
+
+}

@@ -1,0 +1,14 @@
+// Variables
+$navHeight: 80px;
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:sans-serif;
+  box-sizing: border-box;
+
+}
+
+// Imports
+@import "nav";
+@import "main";

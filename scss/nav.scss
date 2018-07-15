@@ -1,0 +1,31 @@
+ nav {
+   height: $navHeight;
+   background-color: black;
+   width: 100vw;
+
+   .logo {
+     color: white;
+     padding: 2px;
+     margin: 4px 4px 4px 4px;
+     float: left;
+     font-size: 40px;
+     line-height: $navHeight;
+   }
+
+  ul {
+    list-style: none;
+    width: 40%;
+    float: right;
+
+    li{
+      line-height: $navHeight;
+      text-align: center;
+      color: white;
+      display: block;
+      height: $navHeight;
+      float: left;
+      width: 30%;
+    }
+  }
+
+ }
