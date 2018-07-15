@@ -2,6 +2,9 @@
    height: $navHeight;
    background-color: black;
    width: 100vw;
+   display: block;
+   position: fixed;
+   z-index: 99;
 
    .logo {
      color: white;
